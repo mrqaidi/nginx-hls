@@ -10,6 +10,8 @@ apt install -fy \
  libpcre3 \
  libpcre3-dev \
  libssl-dev && \
+ 
+apt-get install --reinstall zlibc zlib1g zlib1g-dev \
 
 # Compile nginx from source with nginx-rtmp-module
 cd /tmp && \
